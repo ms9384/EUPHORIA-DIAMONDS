@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO(Search Engine Operation) -->
+    <meta name="keywords" content="web development, website development, web application">
+    <meta name="description" content="">
+    <title>ABOUT US - euphoria diamonds</title>
+    <link rel="shortcut icon" href="C:\Users\Sathish\OneDrive\Pictures\diamond.png" 
+    type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- Customised CSS -->
+     <link rel="stylesheet" href="assignment1_style.css">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <div class="main-bg-2">
+    </div><br>
+
+
+    <div class="main-container">
+        <div class="box2">
+            <h5 class="head_1" style="color:rgb(154, 154, 238);">about us<br><br></h5>
+            <h5 class="head_2">
+            <p>We are a brand new company brought up on the basis of simple<br>
+            and effective mottos. It is to provide to our customers with the<br> 
+            best of diamonds and also save the earth from depletion.</p>
+            <p>We believe that every day is a self loving day and our 
+            services<br> enhance this statement to the fullest.</p>
+            <p>Diamonds are women's friends, & now we have<br> 
+            made it even more friendly.</p>
+            <img src="images/diamond_6.jpeg" width="40%" height="25%" alt=""><br>
+            </h5><br>
+        </div>
+
+        <div class="box2">
+            <h5 class="head_1" style="color:rgb(154, 154, 238);">contact us<br><br></h5>
+            <h5 class="head_2">
+            For further details do contact us on:<br><br>
+            <ul>
+            <i style="color:rgb(154, 154, 238);" class="fa-brands fa-whatsapp"></i>&nbsp; MOB :<br>
+                9876545678<br><br>
+            <i style="color:rgb(154, 154, 238);"class="fa-regular fa-envelope"></i>&nbsp; EMAIL :<br>
+                euphoriadiamonds@gmail.com<br><br>
+            <i style="color:rgb(154, 154, 238);"class="fa-brands fa-instagram"></i>&nbsp; INSTAGRAM :<br>
+                euphoria_diamonds
+            <a href="https://www.instagram.com/" target="_blank">(Instagram)</a><br><br>
+            </ul>
+            </h5>
+        </div>
+    </div><br><br>
+
+    <a class="head_2" accesskey="h" id="home" href="Assignment_1.html" style="color: white;"><i class="fa-solid fa-house"></i>Home</a>
+</body>
