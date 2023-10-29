@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:white;
+    background-color: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+
+.head_1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.head_2{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-variant: normal;
+}
+
+.head_3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.head_5{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 25px;
+    font-variant: normal;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-container{
+    display: flex;
+    padding: 50px;
+}
+
+.main-bg-2{
+    background-image: url('images/diamond_3.jpeg');
+    background-position: center;
+    background-size: contain;
+    padding: 135px 70px;
+}
+
+.box1{
+    width: 33.33%;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box1-img img{
+    transition: .5s;
+}
+
+.box1-img{
+    height: 300px;
+    overflow: hidden;
+}
+
+.box1:hover{
+    border: none;
+    box-shadow: 0px 3px 20px 10px rgb(154, 154, 238);
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.box1-content{
+    margin: 5px;
+}
+
+.box2{
+    width: 50%;
+    margin: 20px;
+    border: 1px solid rgb(154, 154, 238);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box2:hover{
+    border: none;
+    box-shadow: 0px 3px 20px 10px rgb(129, 129, 247);
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.box3{
+    width: 25%;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box3-img img{
+    transition: .5s;
+}
+
+.box3-img{
+    height: 300px;
+    overflow: hidden;
+}
+
+.box3:hover{
+    border: none;
+    box-shadow: 0px 3px 20px 10px rgb(154, 154, 238);
+}
+
+.box3:hover .box-img img{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.box3-content{
+    margin: 5px;
+}
